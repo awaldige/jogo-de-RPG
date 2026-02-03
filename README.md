@@ -1,93 +1,100 @@
-RPG - Dragon Repeller
+# 🐉 RPG - Dragon Repeller
 
-Dragon Repeller é um jogo de RPG simples baseado em texto, criado como parte de um projeto de aprendizado no FreeCodeCamp. Neste jogo, você deve derrotar o dragão que está impedindo as pessoas de saírem da cidade. Ao longo do jogo, você poderá lutar contra monstros, comprar armas, coletar ouro e melhorar suas habilidades.
+**Dragon Repeller** é um jogo de RPG simples baseado em texto, desenvolvido como parte do currículo do **freeCodeCamp**. O objetivo do jogo é derrotar o dragão que impede os moradores de saírem da cidade, enfrentando monstros, adquirindo armas e acumulando ouro ao longo da jornada.
 
-Como Jogar
+## 🎮 Como Jogar
 
-1. Início do Jogo
+O jogo inicia na praça da cidade, onde você pode escolher entre diferentes ações para evoluir e se preparar para enfrentar o dragão.
 
-O jogo começa na praça da cidade, onde você pode escolher entre três opções:
+### 🏙️ Locais Disponíveis
 
-Ir para a loja: Compre itens como poções de saúde e armas para ajudar nas batalhas.
+- **Loja** — Comprar poções de saúde e armas.
+- **Caverna** — Enfrentar monstros para ganhar ouro e XP.
+- **Dragão** — Batalha final do jogo.
 
-Ir para a caverna: Enfrente monstros para ganhar ouro e experiência.
+## 📊 Estatísticas do Jogador
 
-Lutar contra o dragão: Vá direto para o dragão, o chefe final do jogo.
+Durante o jogo, você acompanha:
 
-2. Estatísticas e Inventário
+- ❤️ **Saúde** — Se chegar a zero, o jogo termina.
+- ⭐ **XP** — Obtido ao derrotar monstros.
+- 💰 **Ouro** — Usado para comprar itens e armas.
+- 🎒 **Inventário** — Armas e itens adquiridos ao longo do jogo.
 
-Saúde: A saúde do jogador é visível na interface. Quando a saúde chega a 0, você perde o jogo.
+## ⚔️ Sistema de Combate
 
-XP: Ganhe experiência derrotando monstros. Quando você acumular XP suficiente, pode melhorar suas habilidades.
+Durante as batalhas, você pode:
 
-Ouro: Use o ouro para comprar itens como poções de saúde e novas armas.
+- **Atacar** o inimigo
+- **Desviar** do ataque
+- **Correr** de volta para a cidade
 
-Inventário: À medida que avança no jogo, você pode melhorar sua arma e coletar novos itens.
+O combate envolve elementos de sorte e estratégia, onde o jogador pode ganhar ou perder vida dependendo das decisões e probabilidades.
 
-3. Combate
+## 🚀 Progressão no Jogo
 
-Durante o combate, você tem três opções:
+Ao avançar, o jogador pode:
 
-Atacar: Use sua arma para atacar o monstro.
+- Comprar armas mais fortes
+- Enfrentar monstros mais poderosos
+- Ganhar mais ouro e experiência
+- Desbloquear novas possibilidades
+- Derrotar o dragão para vencer o jogo
 
-Desviar: Tente evitar o ataque do monstro.
+Também existe um **Easter Egg**, um mini-jogo que permite ganhar ouro extra por meio de um desafio de adivinhação.
 
-Correr: Volte para a praça da cidade.
+## 🛠️ Tecnologias Utilizadas
 
-O combate é baseado em probabilidades, onde você pode ganhar ou perder vida dependendo de suas ações e da sorte.
+- **HTML5** — Estrutura do jogo
+- **CSS3** — Estilização da interface
+- **JavaScript** — Lógica do jogo e interações
 
-4. Evolução do Jogo
+## 📂 Estrutura do Projeto
 
-À medida que avança, você pode:
+dragon-repeller/
+├── index.html
+├── styles.css
+└── script.js
 
-Comprar novas armas, como bastão, adaga, martelo de garra e espada.
+🌐 Acesse o Projeto Online
 
-Lutar contra monstros cada vez mais fortes para ganhar XP e ouro.
+🔗
 
-Derrotar o dragão para vencer o jogo.
 
-Descobrir um Easter Egg que oferece uma chance de ganhar ouro extra com um jogo de adivinhação.
+## ▶️ Como Executar
 
-Tecnologias Usadas
+1. Clone o repositório:
 
-HTML: Estruturação da página e exibição do conteúdo do jogo.
+```bash
+git clone https://github.com/seu-usuario/dragon-repeller.git
+Entre na pasta do projeto:
 
-CSS: Estilos para tornar o jogo mais visualmente agradável.
+cd dragon-repeller
+Abra o arquivo index.html em um navegador.
 
-JavaScript: Lógica do jogo, manipulação dos botões, combate e interações com o jogador.
+✨ Funcionalidades Extras
+Compra e venda de armas
 
-Como Executar
+Sistema de combate estratégico
 
-Clone este repositório para o seu computador.
+Evolução do personagem
 
-Abra o arquivo index.html em seu navegador para jogar o jogo.
+Mini-jogo secreto para ganhar ouro
 
-Divirta-se explorando, lutando contra monstros e enfrentando o dragão!
+🤝 Como Contribuir
+Contribuições são bem-vindas! Você pode:
 
-Funcionalidades Adicionais
+Criar novas armas e monstros
 
-Compra de Itens: Você pode comprar poções de saúde e novas armas usando o ouro que ganha durante o jogo.
+Melhorar a interface
 
-Venda de Armas: Se você já tem a melhor arma, pode vender as antigas para obter ouro extra.
+Adicionar novas mecânicas
 
-Sistema de Combate: A cada luta, você pode atacar, desviar ou fugir, com base em escolhas estratégicas.
+Corrigir bugs
 
-Easter Egg: Um mini-jogo onde você escolhe um número e tenta adivinhar se ele está entre os números sorteados. Se acertar, ganha ouro extra!
+Basta criar um fork do projeto e enviar um pull request.
 
-Como Contribuir
+📜 Licença
+Projeto distribuído sob a Licença MIT.
 
-Este projeto foi desenvolvido como parte de um desafio no FreeCodeCamp, mas estou sempre aberto a contribuições e melhorias. Você pode:
-
-Fazer um fork deste repositório.
-
-Adicionar novas armas, monstros ou funcionalidades.
-
-Corrigir bugs ou melhorar a interface.
-
-Após fazer suas alterações, envie um pull request para que possamos revisar e possivelmente integrar suas contribuições.
-
-Licença
-
-Este projeto é de código aberto e distribuído sob a Licença MIT.
-
-Este jogo foi desenvolvido como parte de um aprendizado prático e desafio do FreeCodeCamp, que visa aprimorar as habilidades em HTML, CSS e JavaScript. É uma ótima oportunidade para praticar a criação de jogos simples e interativos na web.
+Projeto criado para fins educacionais como parte do aprendizado prático em desenvolvimento web através do freeCodeCamp.
