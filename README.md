@@ -1,100 +1,116 @@
-# 🐉 RPG - Dragon Repeller
+# 🐉 Dragon Repeller — Jogo de RPG
 
-**Dragon Repeller** é um jogo de RPG simples baseado em texto, desenvolvido como parte do currículo do **freeCodeCamp**. O objetivo do jogo é derrotar o dragão que impede os moradores de saírem da cidade, enfrentando monstros, adquirindo armas e acumulando ouro ao longo da jornada.
+**Dragon Repeller** é um jogo de RPG em texto desenvolvido com **HTML5, CSS3 e JavaScript**, inspirado em um projeto educacional do currículo do freeCodeCamp.
+
+Explore diferentes locais, enfrente monstros, adquira equipamentos e evolua seu personagem até chegar ao desafio final: derrotar o dragão.
+
+O projeto foi desenvolvido para praticar lógica de programação, manipulação do DOM e criação de experiências interativas no navegador.
+
+---
+
+## 🌐 Demonstração Online
+
+🎮 **[Jogar Dragon Repeller](https://awaldige.github.io/jogo-de-RPG/)**
+
+---
+
+## ✨ Funcionalidades
+
+- 🏙️ Exploração de locais, incluindo cidade, loja e caverna
+- ⚔️ Sistema de combate contra monstros
+- ❤️ Acompanhamento dos pontos de vida
+- ⭐ Sistema de experiência (XP)
+- 💰 Coleta e utilização de ouro
+- 🎒 Inventário e aquisição de armas
+- 🐉 Batalha final contra o dragão
+- 🎲 Mini-jogo adicional para obter ouro
+- 🖥️ Interface interativa executada diretamente no navegador
+
+---
 
 ## 🎮 Como Jogar
 
-O jogo inicia na praça da cidade, onde você pode escolher entre diferentes ações para evoluir e se preparar para enfrentar o dragão.
+1. Inicie a aventura na praça da cidade.
+2. Visite a loja para adquirir itens e equipamentos.
+3. Explore a caverna e enfrente monstros para obter ouro e experiência.
+4. Acompanhe seus pontos de vida e escolha suas ações durante os combates.
+5. Melhore seus equipamentos e prepare-se para o desafio final.
+6. Enfrente o dragão e conclua a aventura.
 
-### 🏙️ Locais Disponíveis
+**Dica:** prepare seu personagem antes de enfrentar o desafio final.
 
-- **Loja** — Comprar poções de saúde e armas.
-- **Caverna** — Enfrentar monstros para ganhar ouro e XP.
-- **Dragão** — Batalha final do jogo.
+---
 
-## 📊 Estatísticas do Jogador
+## 🖼️ Demonstração Visual
 
-Durante o jogo, você acompanha:
+Adicione capturas de tela reais do projeto nesta seção para apresentar a interface, os locais disponíveis e o sistema de combate.
 
-- ❤️ **Saúde** — Se chegar a zero, o jogo termina.
-- ⭐ **XP** — Obtido ao derrotar monstros.
-- 💰 **Ouro** — Usado para comprar itens e armas.
-- 🎒 **Inventário** — Armas e itens adquiridos ao longo do jogo.
+---
 
-## ⚔️ Sistema de Combate
+## 🧰 Tecnologias Utilizadas
 
-Durante as batalhas, você pode:
+| Tecnologia | Aplicação |
+|---|---|
+| HTML5 | Estrutura do jogo |
+| CSS3 | Estilização da interface |
+| JavaScript | Regras, combates e interações |
 
-- **Atacar** o inimigo
-- **Desviar** do ataque
-- **Correr** de volta para a cidade
-
-O combate envolve elementos de sorte e estratégia, onde o jogador pode ganhar ou perder vida dependendo das decisões e probabilidades.
-
-## 🚀 Progressão no Jogo
-
-Ao avançar, o jogador pode:
-
-- Comprar armas mais fortes
-- Enfrentar monstros mais poderosos
-- Ganhar mais ouro e experiência
-- Desbloquear novas possibilidades
-- Derrotar o dragão para vencer o jogo
-
-Também existe um **Easter Egg**, um mini-jogo que permite ganhar ouro extra por meio de um desafio de adivinhação.
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5** — Estrutura do jogo
-- **CSS3** — Estilização da interface
-- **JavaScript** — Lógica do jogo e interações
+---
 
 ## 📂 Estrutura do Projeto
 
-dragon-repeller/
-├── index.html
-├── styles.css
-└── script.js
+```text
+jogo-de-RPG/
+├── index.html    # Estrutura do jogo
+├── styles.css    # Estilização visual
+├── script.js     # Lógica e mecânicas
+└── README.md     # Documentação
+```
 
-🌐 Acesse o Projeto Online
+---
 
-🔗 https://awaldige.github.io/jogo-de-RPG/
-
-
-## ▶️ Como Executar
+## 🚀 Como Executar Localmente
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/seu-usuario/dragon-repeller.git
-Entre na pasta do projeto:
+   ```bash
+   git clone https://github.com/awaldige/jogo-de-RPG.git
+   ```
 
-cd dragon-repeller
-Abra o arquivo index.html em um navegador.
+2. Acesse a pasta:
 
-✨ Funcionalidades Extras
-Compra e venda de armas
+   ```bash
+   cd jogo-de-RPG
+   ```
 
-Sistema de combate estratégico
+3. Abra o arquivo `index.html` no navegador.
 
-Evolução do personagem
+Não é necessário instalar dependências para executar a versão estática do jogo.
 
-Mini-jogo secreto para ganhar ouro
+---
 
-🤝 Como Contribuir
-Contribuições são bem-vindas! Você pode:
+## 🔮 Melhorias Futuras
 
-Criar novas armas e monstros
+- 🎨 Aprimoramento da interface e dos efeitos visuais
+- 🧙 Inclusão de novas áreas e desafios
+- 👾 Criação de novos monstros e itens
+- 📈 Expansão das mecânicas de evolução do personagem
+- 💾 Possibilidade de salvar o progresso do jogador
 
-Melhorar a interface
+---
 
-Adicionar novas mecânicas
+## 👨‍💻 Autor
 
-Corrigir bugs
+**André Waldige — AW TECHNOLOGY**
 
-Basta criar um fork do projeto e enviar um pull request.
+🔗 [GitHub: @awaldige](https://github.com/awaldige)
 
-📜 Licença
-Projeto distribuído sob a Licença MIT.
+---
 
-Projeto criado para fins educacionais como parte do aprendizado prático em desenvolvimento web através do freeCodeCamp.
+## 📜 Créditos
+
+Projeto educacional inspirado no currículo do [freeCodeCamp](https://www.freecodecamp.org/).
+
+---
+
+⭐ Gostou do projeto? Deixe uma estrela no repositório!
