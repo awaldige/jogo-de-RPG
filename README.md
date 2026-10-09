@@ -43,7 +43,7 @@ O projeto foi desenvolvido para praticar lógica de programação, manipulação
 
 ## 🖼️ Demonstração Visual
 
-Adicione capturas de tela reais do projeto nesta seção para apresentar a interface, os locais disponíveis e o sistema de combate.
+
 
 ---
 
